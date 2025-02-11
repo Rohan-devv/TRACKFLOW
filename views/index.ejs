@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <!-- ✅ Load Leaflet First -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- ✅ Load Leaflet Search After Leaflet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-search/4.0.0/leaflet-search.src.min.css" crossorigin="anonymous" />
+</head>
+<body>
+
+    <div id="map"></div>  <!-- ✅ Ensure this is correct -->
+
+    <!-- ✅ Load Leaflet Search After Leaflet -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-search/4.0.0/leaflet-search.src.min.js" crossorigin="anonymous"></script>
+
+    <!-- ✅ Load Socket.IO -->
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" crossorigin="anonymous"></script>
+
+    <!-- ✅ Load Your JavaScript Last -->
+    <script src="/javascript/script.js"></script>
+
+</body>
+</html>
